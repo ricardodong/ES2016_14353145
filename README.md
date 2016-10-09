@@ -44,7 +44,7 @@ $	cd objdir
 <br>
 $	../configure CXX=g++ --disable-async-updates
 <br>
-编译结果如下：
+设置结果如下：
 <br>
 ###imghere
 <br>
@@ -83,6 +83,16 @@ $	cd ../dol
 <br>
 把前面的路径改成我安装的systemc的路径，也就是上面pwd到的路径（上图已经是改好的）
 <br>
+然后是编译
+<br>
+$	ant -f build_zip.xml all
+<br>
+成功会显示build successful
+<br>
+###imghere
+<br>
+<br>
+#至此就完成了dol的安装！
 
 
 
