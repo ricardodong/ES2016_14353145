@@ -2,16 +2,15 @@
 上学期已经使用过ubuntu系统所以我直接开始环境配置
 <br>
 ##1.首先安装一些必要的环境：
-<br>
 $	sudo apt-get update（更新我目前的ubuntu所有程序）
 <br>
 $	sudo apt-get install ant（安装ant，用于编译的工具）
-<br>$ sudo apt-get install openjdk-7-jdk
+<br>
+$ sudo apt-get install openjdk-7-jdk
 <br>
 $	sudo apt-get install unzip（解压具）
 <br>
 ##2.然后下载dol和systemc
-<br>
 在命令行中输入这两句话来安装
 <br>
 sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1.tgz
@@ -19,10 +18,8 @@ sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.
 sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 <br>
 ##3.解压文件
-<br>
 新建dol的文件夹 
-<br>
-$	mkdir dol
+<br>$	mkdir dol
 <br>
 将dolethz.zip解压到 dol文件夹中
 <br>
@@ -32,7 +29,6 @@ $	unzip dol_ethz.zip -d dol<br>
 $	tar -zxvf systemc-2.3.1.tgz
 <br>
 ##4.编译systemc
-<br>
 解压后进入systemc-2.3.1的目录下
 <br>
 $	cd systemc-2.3.1
@@ -56,7 +52,8 @@ $	../configure CXX=g++ --disable-async-updates
 <br>
 $	sudo make install
 <br>
-至此就完成了编译systemc<br>
+至此就完成了编译systemc
+<br>
 然后可以返回上一层检查目录下有哪些文件来判断是否装好了。
 <br>
 $ cd ..
@@ -72,7 +69,6 @@ $	pwd
 ###imghere
 <br>
 ##5.编译dol
-<br>
 进入刚刚dol的文件夹
 <br>
 $	cd ../dol
