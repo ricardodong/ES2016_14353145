@@ -1,3 +1,4 @@
+# DOL
 # DOL安装笔记
 上学期已经使用过ubuntu系统所以我直接开始环境配置
 <br>
@@ -90,7 +91,6 @@ $	ant -f build_zip.xml all
 成功会显示build successful
 <br>
 ###imghere
-<br>
 <br>
 #至此就完成了dol的安装！
 
