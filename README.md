@@ -38,7 +38,7 @@ $	cd systemc-2.3.1
 <br>
 $	mkdir objdir
 <br>
-进入该文件夹objdir
+u进入该文件夹objdir
 <br>
 $	cd objdir
 <br>
@@ -48,7 +48,7 @@ $	../configure CXX=g++ --disable-async-updates
 <br>
 设置结果如下：
 <br>
-###imghere
+m###imghere
 <br>
 编译
 <br>
