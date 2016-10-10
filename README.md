@@ -47,7 +47,9 @@ $	cd objdir
 $	../configure CXX=g++ --disable-async-updates
 <br>
 设置结果如下：
+<br>
 ![alt text](设置图.png "DOL")
+<br>
 编译
 <br>
 $	sudo make install
@@ -59,11 +61,15 @@ $	sudo make install
 $ cd ..
 <br>
 % ls
+<br>
 ![alt text](文件图.png "DOL")
+<br>
 记录当前的工作路径
 <br>
 $	pwd
+<br>
 ![alt text](路径图.png "DOL")
+<br>
 ##5.编译dol
 进入刚刚dol的文件夹
 <br>
@@ -72,7 +78,9 @@ $	cd ../dol
 然后先到文件管理器里去修改build_zip.xml文件
 <br>
 直接找到下面两句话（就在一开头）
+<br>
 ![alt text](路径修改图.png "DOL")
+<br>
 把前面的路径改成我安装的systemc的路径，也就是上面pwd到的路径（上图已经是改好的）
 <br>
 然后是编译
@@ -80,10 +88,14 @@ $	cd ../dol
 $	ant -f build_zip.xml all
 <br>
 成功会显示build successful
+<br>
 ![alt text](成功图.png "DOL")
+<br>
 然后可以做个测试（上图中已经有了语句）
 结果如下
+<br>
 ![alt text](测试结果图.png "DOL")
+<br>
 #至此就完成了dol的安装！
 #实验感想
 根据ppt一步步完成了安装了呢~markdown目前用起来感觉不是很方便，不比html简单多少。
