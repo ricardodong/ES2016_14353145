@@ -1,5 +1,5 @@
 # DOL frame Description
-![alt text](DOL图.jpg "DOL")
+![alt text](DOL图.png "DOL")
 # DOL安装笔记
 上学期已经使用过ubuntu系统所以我直接开始环境配置
 <br>
