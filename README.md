@@ -1,4 +1,5 @@
-# DOL
+# DOL frame Description
+![alt text](DOL图.jpg "DOL")
 # DOL安装笔记
 上学期已经使用过ubuntu系统所以我直接开始环境配置
 <br>
@@ -93,6 +94,7 @@ $	ant -f build_zip.xml all
 ###imghere
 <br>
 #至此就完成了dol的安装！
-
+#实验感想
+根据ppt一步步完成了安装了呢~markdown
 
 
