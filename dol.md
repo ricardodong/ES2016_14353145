@@ -22,5 +22,5 @@
 ![alt text](result2.png "result2")
 </br>
 ###2:
-原程序中的square的平方是i=i*i;实现的，所以我们要改成三次方的话.
-就是i=i*i*i;
+原程序中的square的平方是i=i×i;实现的，所以我们要改成三次方的话.
+就是i=i×i×i;
